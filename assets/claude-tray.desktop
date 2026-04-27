@@ -1,0 +1,11 @@
+[Desktop Entry]
+Type=Application
+Name=Claude Tray
+GenericName=Claude Code session usage indicator
+Comment=Show current Claude Code 5-hour session token usage and reset countdown
+Exec=claude-tray
+Icon=claude-tray-symbolic
+Terminal=false
+Categories=Utility;GTK;
+StartupNotify=false
+X-GNOME-Autostart-enabled=true

@@ -1,0 +1,14 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python -m ruff check src/ tests/)",
+      "Bash(PYTHONPATH=src python -m claude_tray status)",
+      "Bash(python3 -m pytest tests/ -v)",
+      "Bash(PYTHONPATH=src python -m pytest)",
+      "Bash(PYTHONPATH=src python *)",
+      "Bash(pkill -TERM -f \"python -m claude_tray run\")",
+      "Read(//home/purvansh.parmar/.local/share/applications/**)",
+      "Read(//home/purvansh.parmar/.config/autostart/**)"
+    ]
+  }
+}
